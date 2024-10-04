@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: outfit;
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: youngserif;
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.card {
+  width: 690px;
+  background-color: white;
+  font-family: outfit;
+  margin: 100px 0px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h1 {
+  font-family: youngserif;
+  margin: 15px 0px;
+  font-weight: 400;
+}
+
+.card ol,
+ul,
+table {
+  margin-left: 30px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  
+}
+
+.card ul{
+    list-style: square;
+}
+
+.card .preptime li{
+    list-style: disc;
+}
+
+li {
+  margin: 10px 0px;
+}
+
+.card .preptime li::marker{
+    color: hsl(332, 51%, 32%) ;
+    list-style-type: circle;
+}
+
+.card li::marker{
+    color: hsl(14, 45%, 36%);
+    /* font-weight: 700; */
+}
+
+.card p {
+  margin: 10px 0px;
+}
+
+.card span {
+  font-weight: 700;
+}
+
+.card .preptime {
+  background-color: hsla(332, 100%, 64%, 0.027);
+  border-radius: 10px;
+  margin: 15px 0px;
+  padding: 20px;
+}
+
+.card h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+.card hr {
+  color: hsla(31, 53%, 90%, 0.027);
+  height: 0.03rem;
+  background-color: hsla(31, 60%, 84%, 0.822);
+  border-width: 0px;
+  border-color: hsla(31, 53%, 90%, 0.021);
+  margin: 20px 0px;
+}
+
+.card h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: youngserif;
+  margin: 10px 0px;
+}
+
+.card table {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.card table td {
+  color: hsl(0, 0%, 13%);
+  /* height: 0.03rem; */
+  /* background-color: hsla(31, 60%, 84%, 0.822); */
+  /* border-width: 0.02rem; */
+  /* border-color: hsl(30, 10%, 34%); */
+  margin: 20px 0px;
+  border-bottom: 0.02rem solid hsla(31, 14%, 65%, 0.281);
+  padding: 10px 0px;
+}
+
+.card table tr .n-val {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
